@@ -5,50 +5,79 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  emoji: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'AI-Powered Review Management',
+    emoji: '🤖',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Leverage AI tools to monitor, gain insights, and respond to reviews efficiently. 
+        Scale your ability to manage reviews across multiple platforms with smart automation.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Centralized Review Dashboard',
+    emoji: '📊',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Manage all client reviews in one place from countless sites. Monitor, track, 
+        and respond to reviews from major platforms like Google and Facebook directly 
+        from your dashboard.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Competitive Analysis',
+    emoji: '📈',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Show clients how they stack up to the competition with insightful reports. 
+        Track sentiment analysis and review performance against competitors.
+      </>
+    ),
+  },
+  {
+    title: 'NPS Feedback Collection',
+    emoji: '📝',
+    description: (
+      <>
+        Collect Net Promoter Score feedback to boost online reputations and increase 
+        customer loyalty. Turn happy customers into brand advocates.
+      </>
+    ),
+  },
+  {
+    title: 'Multi-location Management',
+    emoji: '🏢',
+    description: (
+      <>
+        Perfect for franchises and multi-location businesses. Easily monitor and manage 
+        reviews across all locations from a single platform.
+      </>
+    ),
+  },
+  {
+    title: 'White-label Solution',
+    emoji: '🎨',
+    description: (
+      <>
+        Resell reputation management software under your own brand. Build client 
+        credibility with a martech platform customized to your identity.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, emoji, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
+        <div className={styles.featureEmoji}>{emoji}</div>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
