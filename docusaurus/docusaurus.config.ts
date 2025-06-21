@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Reputation Management',
-  tagline: 'Drive Revenue for Clients with AI-Powered Reviews',
-  favicon: 'img/repman-logo.png',
+  tagline: 'AI-powered review management software',
+  favicon: 'img/logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -18,7 +18,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs.steprep.com',
+  url: 'https://docs.reputationmanagement.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -70,11 +70,6 @@ const config: Config = {
           position: 'left',
           label: 'Overview',
         },
-        {
-          href: 'https://www.vendasta.com',
-          label: 'Vendasta',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -84,43 +79,13 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Overview',
+              label: 'Getting started',
               to: '/overview',
             },
           ],
         },
-        {
-          title: 'Resources',
-          items: [
-            {
-              label: 'Help Center',
-              href: 'https://support.vendasta.com',
-            },
-            {
-              label: 'Community',
-              href: 'https://community.vendasta.com',
-            },
-            {
-              label: 'Blog',
-              href: 'https://www.vendasta.com/blog',
-            },
-          ],
-        },
-        {
-          title: 'Company',
-          items: [
-            {
-              label: 'About Vendasta',
-              href: 'https://www.vendasta.com/about',
-            },
-            {
-              label: 'Contact',
-              href: 'https://www.vendasta.com/contact',
-            },
-          ],
-        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Vendasta Technologies Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,

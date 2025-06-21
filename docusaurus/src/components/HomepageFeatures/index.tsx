@@ -41,36 +41,6 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
-  {
-    title: 'NPS Feedback Collection',
-    emoji: '📝',
-    description: (
-      <>
-        Collect Net Promoter Score feedback to boost online reputations and increase 
-        customer loyalty. Turn happy customers into brand advocates.
-      </>
-    ),
-  },
-  {
-    title: 'Multi-location Management',
-    emoji: '🏢',
-    description: (
-      <>
-        Perfect for franchises and multi-location businesses. Easily monitor and manage 
-        reviews across all locations from a single platform.
-      </>
-    ),
-  },
-  {
-    title: 'White-label Solution',
-    emoji: '🎨',
-    description: (
-      <>
-        Resell reputation management software under your own brand. Build client 
-        credibility with a martech platform customized to your identity.
-      </>
-    ),
-  },
 ];
 
 function Feature({title, emoji, description}: FeatureItem) {
