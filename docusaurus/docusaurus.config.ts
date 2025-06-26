@@ -45,6 +45,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          // editUrl: 'https://github.dev/vendasta/repman-docs',
           routeBasePath: '/',
         },
         blog: false,
