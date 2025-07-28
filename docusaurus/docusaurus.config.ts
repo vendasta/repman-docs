@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Reputation Management',
   tagline: 'AI-powered review management software',
-  favicon: 'img/logo.svg',
+  favicon: 'img/repman-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
