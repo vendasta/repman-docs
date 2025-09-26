@@ -1,0 +1,35 @@
+---
+title: Review Matching
+releaseDate: 2025-09-29
+---
+
+## Job Story
+When a business sends out review requests, they want to know if the reviews they receive are from known contacts.  
+They need a way to connect reviews with existing customer records.
+
+This helps them measure the effectiveness of requests and track real engagement.  
+It also enables more meaningful follow-up actions with customers.  
+Ultimately, this gives them clearer visibility into the customer journey.
+
+---
+
+## Before
+Users could request and respond to reviews, but had no visibility into who actually left them.  
+This made it difficult to measure request effectiveness or connect feedback back to real customers.
+
+### Key Challenges
+- No way to know if a review was from a known contact.  
+- Limited ability to measure the true impact of review requests.  
+- Follow-ups lacked context, reducing their effectiveness.  
+
+---
+
+## After
+With **Review Matching**, reviews are automatically checked against customer data (name, email, phone).  
+Businesses can now see which reviews came from known contacts, making it easier to measure engagement and act on feedback.
+
+### Key Benefits
+- Identify reviews tied to known contacts with high confidence.  
+- Track how review requests convert into actual reviews.  
+- Take smarter follow-up actions with full customer context.  
+- Lay the groundwork for future features like contact-level engagement scoring.  
